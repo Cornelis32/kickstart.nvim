@@ -170,9 +170,10 @@ vim.o.confirm = true
 --  See `:help vim.keymap.set()`
 
 -- indentation
-vim.o.tabstop = 4
 vim.o.shiftwidth = 4
+vim.o.tabstop = 4
 vim.o.expandtab = true
+vim.g.editorconfig = false
 
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
